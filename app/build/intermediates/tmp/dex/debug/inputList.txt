@@ -1,5 +1,0 @@
-/Users/justinjude/Documents/EffectiveNavigation1/app/build/intermediates/classes/debug
-/Users/justinjude/Documents/EffectiveNavigation1/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-2d2cab63b3f380aa4222d57a6fc74161669c97d4.jar
-/Users/justinjude/Documents/EffectiveNavigation1/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-03a57f10d37ddbf90ed01efa96673eb4770146a9.jar
-/Users/justinjude/Documents/EffectiveNavigation1/app/build/intermediates/pre-dexed/debug/classes-acffb3d57cfd929ecf97258eb0e3c500f38821ac.jar
-/Users/justinjude/Documents/EffectiveNavigation1/app/build/intermediates/pre-dexed/debug/classes-30ce5e146d52c23a4949c5e245be56f925bb91f1.jar
