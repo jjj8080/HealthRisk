@@ -36,4 +36,10 @@
     <string name="drawer_close">Close navigation drawer</string>
     <string name="action_websearch">Web search</string>
     <string name="app_not_available">Sorry, there\'s no web browser available</string>
+    <string name="health_risk">HealthRisk</string>
+    <string name="heart">heart</string>
+    <string name="welcome">Welcome</string>
+    <string name="personal_information">Your personal profile</string>
+    <string name="medical_information">Fill in your Medical Information</string>
+    <string name="search_database">Search disease database</string>
 </resources>
