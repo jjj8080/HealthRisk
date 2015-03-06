@@ -25,7 +25,9 @@
         android:icon="@drawable/healthlog"
         android:theme="@style/CustomActionBarTheme">
 
-        <activity android:name=".MainActivity" android:label="@string/app_name"
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
             android:icon="@drawable/healthlog">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -34,7 +36,20 @@
         </activity>
 
         <activity android:name=".CollectionDemoActivity" android:label="@string/demo_collection"
-            android:icon="@drawable/healthlog"/>
+            android:icon="@drawable/healthlog">
+
+            </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/app_name">
+
+            </activity>
+
+        <activity
+            android:name=".RegisterActivity"
+            android:label="Register Activity">
+            </activity>
+
 
     </application>
 </manifest>

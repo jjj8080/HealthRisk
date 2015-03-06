@@ -2,32 +2,32 @@
 <items version="2" >
 
     <item
-        jar="/Users/justinjude/Documents/EffectiveNavigation1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/classes.jar"
+        jar="/Users/boyang/AndroidStudioProjects/one/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
-        <dex dex="/Users/justinjude/Documents/EffectiveNavigation1/app/build/intermediates/pre-dexed/debug/classes-acffb3d57cfd929ecf97258eb0e3c500f38821ac.jar" />
+        <dex dex="/Users/boyang/AndroidStudioProjects/one/app/build/intermediates/pre-dexed/debug/classes-bb0605802c853309ddf5252fde22bc873f40b8a9.jar" />
     </item>
     <item
-        jar="/Users/justinjude/Downloads/adt-bundle-mac-x86_64-20140702/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
-        <dex dex="/Users/justinjude/Documents/EffectiveNavigation1/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-2d2cab63b3f380aa4222d57a6fc74161669c97d4.jar" />
-    </item>
-    <item
-        jar="/Users/justinjude/Documents/EffectiveNavigation1/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
-        <dex dex="/Users/justinjude/Documents/EffectiveNavigation1/app/build/intermediates/pre-dexed/debug/classes-30ce5e146d52c23a4949c5e245be56f925bb91f1.jar" />
-    </item>
-    <item
-        jar="/Users/justinjude/Documents/EffectiveNavigation1/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
+        jar="/Users/boyang/AndroidStudioProjects/one/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
-        <dex dex="/Users/justinjude/Documents/EffectiveNavigation1/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-03a57f10d37ddbf90ed01efa96673eb4770146a9.jar" />
+        <dex dex="/Users/boyang/AndroidStudioProjects/one/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-c0297a46c42fc3a66213238a1039d3f200b4d9ba.jar" />
+    </item>
+    <item
+        jar="/Users/boyang/AndroidStudioProjects/one/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/Users/boyang/AndroidStudioProjects/one/app/build/intermediates/pre-dexed/debug/classes-39530a7b92ef0cd1d1725b3fbc8af17cff0bf07f.jar" />
+    </item>
+    <item
+        jar="/Users/boyang/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/Users/boyang/AndroidStudioProjects/one/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-8bd1061dd6e64d498daad9b0fb9d39d56c063fa0.jar" />
     </item>
 
 </items>
