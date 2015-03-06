@@ -52,17 +52,7 @@ public class MainActivity extends FragmentActivity implements ActionBar.TabListe
         super.onCreate(savedInstanceState);
         getActionBar().setDisplayOptions(ActionBar.DISPLAY_SHOW_CUSTOM);
         getActionBar().setCustomView(R.layout.abs_layout);
-        setContentView(R.layout.loginpage);
-
-        TextView textView = (TextView)findViewById(R.id.registrationpage);
-        textView.setOnClickListener(new View.OnClickListener()
-        { public void onClick(View v)
-            {
-                Intent register = new Intent(MainActivity.this, RegisterActivity.class);
-                MainActivity.this.startActivity(register);
-            }
-        });
-
+        setContentView(R.layout.activity_main);
 
         // Create the adapter that will return a fragment for each of the three primary sections
         // of the app.
@@ -80,7 +70,7 @@ public class MainActivity extends FragmentActivity implements ActionBar.TabListe
 
         // Set up the ViewPager, attaching the adapter and setting up a listener for when the
         // user swipes between sections.
-        /*mViewPager = (ViewPager) findViewById(R.id.pager);
+        mViewPager = (ViewPager) findViewById(R.id.pager);
         mViewPager.setAdapter(mAppSectionsPagerAdapter);
         mViewPager.setOnPageChangeListener(new ViewPager.SimpleOnPageChangeListener() {
             @Override
@@ -101,7 +91,7 @@ public class MainActivity extends FragmentActivity implements ActionBar.TabListe
                     actionBar.newTab()
                             .setText(mAppSectionsPagerAdapter.getPageTitle(i))
                             .setTabListener(this));
-        }*/
+        }
     }
 
     @Override
@@ -179,14 +169,7 @@ public class MainActivity extends FragmentActivity implements ActionBar.TabListe
             View rootView = inflater.inflate(R.layout.fragment_section_launchpad, container, false);
 
             // Demonstration of a collection-browsing activity.
-            rootView.findViewById(R.id.demo_collection_button)
-                    .setOnClickListener(new View.OnClickListener() {
-                        @Override
-                        public void onClick(View view) {
-                            Intent intent = new Intent(getActivity(), CollectionDemoActivity.class);
-                            startActivity(intent);
-                        }
-                    });
+
 
             // Demonstration of navigating to external activities.
             rootView.findViewById(R.id.demo_external_activity)
