@@ -1,0 +1,5 @@
+/Users/boyang/AndroidStudioProjects/one/app/build/intermediates/classes/debug
+/Users/boyang/AndroidStudioProjects/one/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-8bd1061dd6e64d498daad9b0fb9d39d56c063fa0.jar
+/Users/boyang/AndroidStudioProjects/one/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-c0297a46c42fc3a66213238a1039d3f200b4d9ba.jar
+/Users/boyang/AndroidStudioProjects/one/app/build/intermediates/pre-dexed/debug/classes-bb0605802c853309ddf5252fde22bc873f40b8a9.jar
+/Users/boyang/AndroidStudioProjects/one/app/build/intermediates/pre-dexed/debug/classes-39530a7b92ef0cd1d1725b3fbc8af17cff0bf07f.jar

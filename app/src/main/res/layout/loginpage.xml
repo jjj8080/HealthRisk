@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="fill_parent">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" android:background="#ff35b5e5">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="50dp"
+            android:id="@+id/linearLayout">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Email address"
+                android:id="@+id/textView5"
+                android:layout_marginTop="5dp"
+                android:textColor="#363636" />
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText"
+                android:singleLine="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="5dp" />
+            <TextView android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#363636"
+                android:text="Password"/>
+            <EditText android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:singleLine="true"
+                android:password="true"/>
+            <Button android:id="@+id/btnLogin"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:text="Login"
+                android:textColor="#363636" />
+            <TextView android:id="@+id/registrationpage"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:onClick="goToRegister"
+                android:text="Register"
+                android:gravity="center"
+                android:textSize="20dip"
+                android:textColor="#0b84aa"
+                android:clickable="true" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>
