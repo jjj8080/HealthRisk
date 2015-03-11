@@ -13,46 +13,44 @@
             android:layout_margin="50dp"
             android:id="@+id/linearLayout">
 
-            <TextView
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:text="Email address"
-                android:id="@+id/textView5"
-                android:layout_marginTop="5dp"
-                android:textColor="#363636" />
             <EditText
+                android:id="@+id/email"
+                android:inputType="textEmailAddress"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/editText"
                 android:singleLine="true"
-                android:layout_alignParentTop="true"
-                android:layout_marginTop="5dp" />
-            <TextView android:layout_width="fill_parent"
+                android:layout_marginTop="5dp"
+                android:hint="@string/email" />
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:textColor="#363636"
-                android:text="Password"/>
-            <EditText android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="5dip"
+                android:layout_marginTop="15dip"
+                android:inputType="textPassword"
                 android:singleLine="true"
-                android:password="true"/>
+                android:password="true"
+                android:hint="@string/password" />
+
             <Button android:id="@+id/btnLogin"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dip"
-                android:text="Login"
-                android:textColor="#363636" />
-            <TextView android:id="@+id/registrationpage"
+                android:text="@string/btnLogin"
+                android:textColor="#363636"
+                android:clickable="false" />
+            <TextView android:id="@+id/toRegistrationPage"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="20dp"
                 android:onClick="goToRegister"
-                android:text="Register"
+                android:text="@string/btnRegister"
                 android:gravity="center"
-                android:textSize="20dip"
+                android:textSize="20sp"
                 android:textColor="#0b84aa"
-                android:clickable="true" />
+                android:clickable="true"
+                android:singleLine="true" />
 
         </LinearLayout>
 

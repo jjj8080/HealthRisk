@@ -39,7 +39,12 @@
     <string name="health_risk">HealthRisk</string>
     <string name="heart">heart</string>
     <string name="welcome">Welcome</string>
+    <string name="email">Email Address</string>
+    <string name="btnLogin">Login</string>
+    <string name="btnRegister">Register</string>
+    <string name="password">Password</string>
     <string name="personal_information">Your personal profile</string>
     <string name="medical_information">Fill in your Medical Information</string>
     <string name="search_database">Search disease database</string>
+
 </resources>
