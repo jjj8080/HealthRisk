@@ -31,6 +31,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+import android.widget.ImageButton;
 
 
 
@@ -55,7 +56,12 @@ public class MainActivity extends FragmentActivity implements ActionBar.TabListe
         getActionBar().setDisplayOptions(ActionBar.DISPLAY_SHOW_CUSTOM);
         getActionBar().setCustomView(R.layout.abs_layout);
         setContentView(R.layout.activity_main);
-
+        ImageButton toMedicalForm = (ImageButton) findViewById(R.id.btnToMedicalForm);
+        toMedicalForm.setOnClickListener(new View.OnClickListener(){
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), MedicalFormActivity.class);
+            }
+        });
         // Create the adapter that will return a fragment for each of the three primary sections
         // of the app.
         mAppSectionsPagerAdapter = new AppSectionsPagerAdapter(getSupportFragmentManager());

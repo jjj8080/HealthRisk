@@ -103,7 +103,7 @@
                 <ImageButton
                     android:layout_width="0dp"
                     android:layout_height="50dp"
-                    android:id="@+id/imageButton3"
+                    android:id="@+id/btnToMedicalForm"
                     android:src="@drawable/abc_ic_menu_copy_mtrl_am_alpha"
                     android:layout_weight="1"
                     android:background="#00000000"
